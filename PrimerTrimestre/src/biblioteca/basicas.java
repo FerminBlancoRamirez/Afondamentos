@@ -3,6 +3,7 @@ package biblioteca;
 import java.util.Scanner;
 
 public class basicas {
+    //metodo que se usa para llenar matriz
     public static int[][] fillFromKeyboard(int rows, int cols) {
         java.util.Scanner sc = new java.util.Scanner(System.in);
         int[][] array = new int[rows][cols];
