@@ -2,9 +2,10 @@ package biblioteca;
 
 public class basicasTest {
     public static void main(String[] args) {
-        basicas b1=new basicas();
 
-        b1.print2DArray(b1.fillFromKeyboard(2, 2));
+        //basicas.print2DArray(basicas.fillFromKeyboard(2, 3));
+
+        basicas.print2DArray(basicas.transpuesta(2, 3));
 
     }
 }
